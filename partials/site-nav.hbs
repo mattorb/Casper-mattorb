@@ -21,12 +21,10 @@
             {{navigation type="secondary"}}
         {{else}}
             <div class="social-links">
-                {{#if @site.facebook}}
-                    <a class="social-link social-link-fb" href="{{facebook_url @site.facebook}}" title="Facebook" target="_blank" rel="noopener">{{> "icons/facebook"}}</a>
-                {{/if}}
                 {{#if @site.twitter}}
                     <a class="social-link social-link-tw" href="{{twitter_url @site.twitter}}" title="Twitter" target="_blank" rel="noopener">{{> "icons/twitter"}}</a>
                 {{/if}}
+                <a class="social-link" href="https://bsky.app/profile/mattorb.bsky.social" title="Bluesky" target="_blank" rel="noopener">{{> "icons/bluesky"}}</a>
                 <a class="social-link" href="https://linkedin.com/in/mattorb" title="LinkedIn" target="_blank" rel="noopener">{{> "icons/linkedin"}}</a>
                 <a class="social-link" href="https://github.com/mattorb" title="Github" target="_blank" rel="noopener">{{> "icons/github"}}</a>
             </div>
